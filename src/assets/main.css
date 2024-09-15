@@ -22,3 +22,64 @@ h1{
 a:hover{
     background-color: rgb(178, 244, 253);
 }
+a:active{
+    background-color: rgb(130, 229, 243);
+    text-decoration: underline;
+}
+
+#body{
+    background-color: white;
+    width: auto;
+    height: auto;
+}
+h3{
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container1{
+    margin-left: 50px;
+    padding-right: 20px;
+    text-align: justify;
+    width: 970px;
+    height: auto;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.right{
+    float: right;
+    width: 400px;
+    height: auto;
+    margin-right: 5px;
+    padding-left: 50px;
+}
+.container2{
+    margin-top: 75px;
+    padding-left: 100px;
+    padding-right: 20px;
+}
+.home-pic::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.col{
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+
+#foot{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    width: auto;
+    height: 150px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 40px;
+    background-color: rgb(213, 250, 255);
+}
+.quicklinks{
+    display: flex;
+    justify-content: space-around;
+}
