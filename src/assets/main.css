@@ -1,3 +1,5 @@
+/*home*/
+
 #head{
     background-color: rgb(213, 250, 255);
     width: auto;
@@ -71,15 +73,130 @@ h3{
 #foot{
     margin-left: 10px;
     margin-right: 10px;
-    text-align: justify;
     width: auto;
     height: 150px;
-    font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 40px;
     background-color: rgb(213, 250, 255);
 }
 .quicklinks{
+    display: block;
+}
+.quicklinks a{
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16;
+}
+
+/*login page*/
+.login-container
+{
+    width: 400px;
+    height: 300px;
+    background: rgb(213, 250, 255);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
     display: flex;
-    justify-content: space-around;
+    margin-left: 500px;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    left: 50px;
+    border-radius: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+}
+h2
+{
+    color: #363535;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: -15px;
+    margin: -8px;
+}
+.form-group
+{
+    position: relative;
+    width: 200px;
+    margin: 30px 0;
+    border-bottom: 3px solid #363535;
+}
+.form-group input
+{
+    width: 100%;
+    height: 50px;
+    padding: 0 35px 0 10px;
+    font-size: 1em;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #363535;
+}
+.form-group label
+{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 1 em;
+    color: #363535;
+    transition: 0.5s;
+}
+input:focus ~ label,
+input:valid ~ label
+{
+    top: -5px;
+}
+.form-group i
+{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #363535;
+    font-size: 1.2em;
+}
+.pp
+{
+    text-align: center;
+    color: #363535;
+    margin: 5px 0;
+    font-size: 13px;
+}
+.pp>a
+{
+    text-decoration: none;
+    color: #363535;
+    font-weight: 200;
+}
+.pp>a:hover
+{
+    text-decoration: underline;
+    font-style: italic;
+}
+#btn
+{
+    width: 60%;
+    height: 20px;
+    border-radius: 40px;
+    border: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 1px 0;
+    cursor: pointer;
+    transition: all 0.5s;
+    position:calc(right)
+}
+#btn:hover
+{
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+.wrapper{
+    position:absolute;
+    top: 0;
+    right: 0;
+    width: 480px;
+    height:100%;
+    background-color : rgb(213, 250, 255);
 }
