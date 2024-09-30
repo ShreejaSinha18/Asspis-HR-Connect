@@ -58,7 +58,7 @@
             <img style="width: 50px; height: 50px;" src="../assets/chatbot_icon.png">
         </div>
         <div class="chat-box">
-            <a href="#">Chat with us!!</a>
+            <a href="/chatbot">Chat with us!!</a>
         </div>
     </div>
     <div style="margin-top: 40px;" id="foot">

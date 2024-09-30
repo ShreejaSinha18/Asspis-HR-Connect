@@ -25,6 +25,11 @@ const routes = [
     path: '/contact',
     name: 'contact',
     component: () => import('../views/ContactUs.vue')
+  },
+  {
+    path: '/chatbot',
+    name: 'chatbot_interface',
+    component: () => import('../views/Chatbot.vue')
   }
 ];
 const router = createRouter({
